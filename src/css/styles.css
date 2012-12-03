@@ -1,0 +1,53 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+/* Upload message */
+.upload-message {
+  margin: 60px 0 0;
+  text-align: center;
+}
+.upload-message h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.fileupload-new #parse-csv {
+  display: none;
+}
+.block {
+  padding-bottom: 30px;
+}
+#file-contents {
+  margin-bottom: 30px;
+}
+#file-contents td,
+#file-contents th {
+  white-space: nowrap;
+}
+#file-contents th label {
+  font-weight: bold;
+}
+#prefix {
+  width: 650px;
+}
+/* Supporting marketing content */
+#result {
+  width: 98%;
+}
+#table-container {
+  overflow-x: auto;
+}
+.no-file .start-block,
+.no-file .result-block,
+.no-file #table-container,
+.no-file .progress-block {
+  display: none;
+}
